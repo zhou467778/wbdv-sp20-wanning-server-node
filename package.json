@@ -1,0 +1,19 @@
+{
+  "name": "wbdv-sp20-wanning-server-node",
+  "version": "1.0.0",
+  "description": "simple node JS middle tier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "angular"
+  ],
+  "author": "Wanning Zhou",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
