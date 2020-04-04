@@ -10,8 +10,9 @@ app.use(function (req, res, next) {
     next();
 });
 
-require('./controllers/quiz.controller.server')(app)
-require('./controllers/question.controller.server')(app)
+require('./controllers/quiz.controller.server')(app);
+require('./controllers/question.controller.server')(app);
+
 
 app.listen(3000)
 

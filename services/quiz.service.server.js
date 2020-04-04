@@ -1,10 +1,12 @@
-const quizzes = require('./quizzes');
 
+const quizzes = require('./quizzes')
 const findAllQuizzes = () => quizzes;
-const findQuizById = (quizId) =>
-    quizzes.find(quiz => quiz._id = quizId);
 
-module.export = {
+const findQuizById = (quizId) =>
+    quizzes.find(quiz => quiz._id === quizId);
+
+
+module.exports = {
     findAllQuizzes,
     findQuizById
 }
